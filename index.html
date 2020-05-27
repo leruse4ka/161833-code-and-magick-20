@@ -194,10 +194,10 @@
     return wizardWidth * 1.337;
   }
   var getWizardX = function (fieldWidth) {
-    return wizardX / 2;
+    return (fieldWidth - wizardWidth) / 2;
   }
   var getWizardY = function (fieldHeight) {
-    return wizardY / 3;
+    return fieldHeight / 3;
   }
 </script>
 <script src="js/game.js"></script>
