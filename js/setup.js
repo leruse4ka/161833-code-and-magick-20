@@ -146,5 +146,5 @@ wizard.querySelector('.wizard-eyes').addEventListener('click', function () {
 
 setup.querySelector('.setup-fireball-wrap').addEventListener('click', function () {
   setup.querySelector('input[name="fireball-color"]').value = renderData(FIREBALL_COLORS);
-  setup.querySelector('.setup-fireball-wrap').style.backgroundColor = setup.querySelector('input[name="fireball-color"]').value ;
+  setup.querySelector('.setup-fireball-wrap').style.backgroundColor = setup.querySelector('input[name="fireball-color"]').value;
 });
